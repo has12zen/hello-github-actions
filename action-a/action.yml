@@ -1,17 +1,17 @@
 name: "Hello Actions"
 description: "Greet someone"
-authour: "Has"
+author: "has"
 
-inputs: 
+inputs:
   MY_NAME:
-    description:"Who to Greet"
-    required:true
-    default:"World"
-    
+    description: "Who to greet"
+    required: true
+    default: "World"
+
 runs:
-  using:"docker"
-  image:"DockerFile"
-  
+  using: "docker"
+  image: "Dockerfile"
+
 branding:
-  icon:"mic"
-  color:"purple"
+  icon: "mic"
+  color: "purple"
